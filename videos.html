@@ -87,24 +87,6 @@ img {
 <center>
 <font size="1" color="gray">Copyright &copy Joey Scher. All rights reserved.</font>
 </center>
-  <!-- /#wrap -->
-  
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
-  <script type="text/javascript">
-  $(function(){
-     // See if this is a touch device
-     if ('ontouchstart' in window)
-     {
-        // Set the correct body class
-        $('body').removeClass('no-touch').addClass('touch');
-       
-        // Add the touch toggle to show text
-        $('div.boxInner img').click(function(){
-           $(this).closest('.boxInner').toggleClass('touchFocus');
-        });
-     }
-  });
-  </script>
-  
+
 </body> 
 </html>
